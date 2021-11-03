@@ -20,4 +20,4 @@ apples = appleQ()
 oranges = orangeQ()
 total = operation(apples, oranges)
 
-print(f"Hi, The total amount for the apples and oranges is PHP{total}. Thank you!")
+print(f"Hi, The total amount for the apples and oranges is PHP{total: .2f}. Thank you!")
